@@ -1,0 +1,72 @@
+*{
+  font-family: avenir;
+}
+
+body{
+  background-image: url("./MaterialeEsercizioLim/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body > div{
+  background-color: rgba(0,0,0,0.5);
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.logo{
+  width: 20%;
+  height: 20%;
+}
+
+header, nav, main{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+header{
+  color: lime;
+  padding-top: 25px;
+  text-align: center;
+}
+
+nav{
+  background-color: lime;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+main{
+  color: white;
+  padding-bottom: 25px;
+  padding-top: 0px;
+}
+
+div > span{
+  font-size: 20px;
+}
+
+main > div{
+  margin-top: 5px;
+}
+
+p + div{
+  border-radius: 4px;
+  height: 20px;
+}
+
+#fig1{
+  width: 200px;
+  background: sandybrown;
+}
+
+#fig2{
+  width: 150px;
+  background: indianred;
+
+}#fig3{
+  width: 30px;
+  background: limegreen;
+}
